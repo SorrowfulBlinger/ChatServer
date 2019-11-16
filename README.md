@@ -6,7 +6,7 @@
 ## Server endpoint
 ws://localhost:8080/ws
 
-##Testing
+## Testing
 Smart Websocket client chrome extensiom
 https://chrome.google.com/webstore/detail/smart-websocket-client/omalebghpgejjiaoknljcfmglgbpocdp?utm_source=chrome-app-launcher-info-dialog
 
