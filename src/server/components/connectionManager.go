@@ -1,4 +1,4 @@
-package manager
+package components
 
 import (
 	"github.com/gorilla/websocket"
@@ -22,7 +22,7 @@ func (connMgr *ConnectionMgrImpl) RegisterConnection(conn *websocket.Conn) {
 	if err != nil {
 		log.Fatal("Cannot generate UUID")
 	}
-	connImpl := &ConnectionImpl {
+	connImpl := &ConnectionImpl{
 		id:              id.String(),
 		connMgr:         connMgr,
 		wsConnection:    conn,

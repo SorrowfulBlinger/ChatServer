@@ -1,4 +1,4 @@
-package manager
+package components
 
 import (
 	"fmt"
@@ -14,11 +14,11 @@ type Connection interface {
 }
 
 type ConnectionImpl struct {
-	id string
-	connMgr *ConnectionMgrImpl
-	wsConnection *websocket.Conn
+	id              string
+	connMgr         *ConnectionMgrImpl
+	wsConnection    *websocket.Conn
 	toClientChannel chan []byte
-	closeLock sync.Mutex
+	closeLock       sync.Mutex
 }
 
 func (conn *ConnectionImpl) Setup () {

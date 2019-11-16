@@ -1,6 +1,6 @@
 package server
 import (
-	"ChatServer/src/server/manager"
+	"ChatServer/src/server/components"
 	"github.com/gorilla/websocket"
 	"log"
 	"net/http"
@@ -9,7 +9,7 @@ import (
 type Handler struct {}
 
 var reqHandler = &Handler{}
-var chatConnectionManger = &manager.ConnectionMgrImpl{ActiveConnections:make(map[*websocket.Conn] *manager.ConnectionImpl)}
+var chatConnectionManger = &components.ConnectionMgrImpl{ActiveConnections: make(map[*websocket.Conn] *components.ConnectionImpl)}
 
 func (*Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	conn, err := (&websocket.Upgrader{CheckOrigin: func(r *http.Request) bool { return true }}).Upgrade(w, r, nil)

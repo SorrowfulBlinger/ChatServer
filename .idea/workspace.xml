@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e9acd97-0e7c-4e24-a698-902d729e975b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/manager/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/components/connection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/manager/connectionManager.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/components/connectionManager.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\purushot\go\src\ChatServer\src\server\components" />
       <recent name="C:\Users\purushot\go\src\ChatServer\src\server" />
     </key>
   </component>
@@ -90,22 +93,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/server/manager/connection.go</url>
+          <url>file://$PROJECT_DIR$/src/server/components/connection.go</url>
           <line>57</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/server/manager/connectionManager.go</url>
-          <line>49</line>
+          <url>file://$PROJECT_DIR$/src/server/components/connectionManager.go</url>
+          <line>50</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/server/manager/connectionManager.go</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/src/server/components/connectionManager.go</url>
+          <line>37</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/server/manager/connection.go</url>
+          <url>file://$PROJECT_DIR$/src/server/components/connection.go</url>
           <line>63</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
